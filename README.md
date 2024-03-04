@@ -24,4 +24,8 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yairb9/TicTacToe.git
+```
+
+Then, navigate to the project directory and open it with VScode or some other editor
+and run the program from main.py
 
