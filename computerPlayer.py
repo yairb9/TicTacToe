@@ -6,6 +6,7 @@ class ComputerPlayer(Player):
     This class implement a computer player that choose his steps using the MinMax algorithm
     '''
     def make_move(self, board):
+    #Implement the move logic of the computer player using MinMax algorithm to determine the best next move
         print(f"\nIt is the computer turn: \n")
         _, best_move = self.minimax(board, True)
         board.make_move(best_move[0], best_move[1], self.symbol)

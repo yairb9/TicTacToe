@@ -1,4 +1,7 @@
 class Board:
+  '''
+  This class represents a 3X3 Tic-Tac-Toe game board 
+  '''
   def __init__(self) -> None:
     #initialize a 3X3 board game
     self.board = [[None, None, None],
