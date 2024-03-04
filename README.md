@@ -24,4 +24,4 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yairb9/TicTacToe.git
-'''
+
